@@ -1,0 +1,133 @@
+:root{--primary-text-color:#212121;
+--title-text-color:#757575;
+--accent-color:#2196F3;
+--white-color:#FFFFFF;
+--dark-background:#2F303A;
+--light-background:#F5F4FA;}
+
+
+body{font-family: "Roboto","Raleway" sans-serif;
+     background-color: var(--white-color);
+color:var(--primary-text-color);}
+
+/* Футер */
+.logo-web{color: var(--accent-color);
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;}
+
+.logo-studio{ color: var(--primary-text-color);
+}
+
+.main-menu-item{color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+}
+.main-menu-item:hover,
+.main-menu-item:focus{color: var(--accent-color);}
+
+.menu-contacts{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+color: var(--title-text-color);}
+
+.menu-contacts:focus,
+.menu-contacts:hover{color: var(--accent-color);}
+
+/* Герой */
+.hero{background: var(--dark-background);}
+
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+color: var(--white-color);}
+
+.hero-button{color: var(--white-color);
+background: #2196F3;
+cursor:pointer;}
+
+.hero-button:hover,
+.hero-button:focus{color: var(--white-color); }
+
+/* Особенности */
+.section-title{color: var(--primary-text-color);
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;}
+
+.section-text{font-family: Roboto;
+font-size: 14px;
+line-height: 1.5;
+color: var(--title-text-color);}
+
+/* Вид деятельности */
+
+.our-activity{
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+color: var(--primary-text-color);}
+
+/* Наши сотрудники */
+.team{background: var(--light-background);}
+
+.our-team{
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+color: var(--primary-text-color);}
+
+.name{font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+color: var(--primary-text-color);}
+
+.profession{
+font-size: 16px;
+line-height: 1.18;
+color: var(--title-text-color);}
+
+/* Футер */
+.footer{background: var(--dark-background);}
+
+.logo-studio-footer{
+color: var(--white-color);}
+
+.address{
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+color: var(--white-color);}
+
+/* Портфолио страница */
+.filtres-sublist{
+background: var(--light-background);
+border-radius: 4px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.portfolio-button{color: var(--primary-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;}
+
+/* Наши услуги */
+.portfolio-title{font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+color: var(--primary-text-color);}
+
+.portfolio-text{font-size: 16px;
+line-height: 30px;
+color: var(--title-text-color);}
