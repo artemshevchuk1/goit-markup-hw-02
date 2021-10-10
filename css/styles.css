@@ -8,13 +8,14 @@
 }
 
 body {
-  font-family: "Roboto", "Raleway" sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: var(--white-color);
   color: var(--primary-text-color);
 }
 
 /* Футер */
 .logo-web {
+  font-family: Raleway;
   color: var(--accent-color);
   font-family: Raleway;
   font-weight: bold;
@@ -91,6 +92,7 @@ body {
 
 /* Особенности */
 .section-title {
+  font-weight: 700;
   color: var(--primary-text-color);
   font-weight: bold;
   font-size: 14px;
@@ -98,6 +100,8 @@ body {
 }
 
 .section-text {
+  font-family: Raleway;
+  font-weight: 400;
   font-family: Roboto;
   font-size: 14px;
   line-height: 1.5;
